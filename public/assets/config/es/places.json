@@ -1,0 +1,233 @@
+[
+    {
+        "id": "varadero",
+        "recomended": "dupon",
+        "mainImgUrl": "assets/images/varadero/header.jpg",
+        "cards": [
+            {
+                "id": "dupon",
+                "name": "Varadero 1",
+                "imgUrl": "assets/images/varadero/sail.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "dupon",
+                "name": "Varadero 2",
+                "imgUrl": "assets/images/varadero/park.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "dupon",
+                "name": "Varadero 3",
+                "imgUrl": "assets/images/varadero/shrimps.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "dupon",
+                "name": "Varadero 1",
+                "imgUrl": "assets/images/varadero/sail.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "dupon",
+                "name": "Varadero 2",
+                "imgUrl": "assets/images/varadero/park.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "dupon",
+                "name": "Varadero 3",
+                "imgUrl": "assets/images/varadero/shrimps.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "dupon",
+                "name": "Varadero 1",
+                "imgUrl": "assets/images/varadero/sail.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "dupon",
+                "name": "Varadero 2",
+                "imgUrl": "assets/images/varadero/park.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "dupon",
+                "name": "Varadero 3",
+                "imgUrl": "assets/images/varadero/shrimps.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        ]
+    },
+    {
+        "id": "vinales",
+        "recomended": "cueva-indio",
+        "mainImgUrl": "assets/images/vinales/header.jpg",
+        "cards": [
+            {
+                "id": "cueva-indio",
+                "name": "Vinales 1",
+                "imgUrl": "assets/images/vinales/mountain.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "cueva-indio",
+                "name": "Vinales 2",
+                "imgUrl": "assets/images/vinales/horse.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "cueva-indio",
+                "name": "Vinales 3",
+                "imgUrl": "assets/images/vinales/tobacco-house.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "cueva-indio",
+                "name": "Vinales 4",
+                "imgUrl": "assets/images/vinales/church.jpg","price": 9.99,
+
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "cueva-indio",
+                "name": "Vinales 1",
+                "imgUrl": "assets/images/vinales/mountain.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "cueva-indio",
+                "name": "Vinales 2",
+                "imgUrl": "assets/images/vinales/horse.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "cueva-indio",
+                "name": "Vinales 3",
+                "imgUrl": "assets/images/vinales/tobacco-house.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "cueva-indio",
+                "name": "Vinales 4",
+                "imgUrl": "assets/images/vinales/church.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "cueva-indio",
+                "name": "Vinales 1",
+                "imgUrl": "assets/images/vinales/mountain.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "cueva-indio",
+                "name": "Vinales 2",
+                "imgUrl": "assets/images/vinales/horse.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "cueva-indio",
+                "name": "Vinales 3",
+                "imgUrl": "assets/images/vinales/tobacco-house.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "cueva-indio",
+                "name": "Vinales 4",
+                "imgUrl": "assets/images/vinales/church.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        ]
+    },
+    {
+        "id": "zapata-peninsula",
+        "recomended": "matorral",
+        "mainImgUrl": "assets/images/zapata/header.jpg",
+        "cards": [
+            {
+                "id": "matorral",
+                "name": "Zapata 1",
+                "imgUrl": "assets/images/zapata/birds.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "matorral",
+                "name": "Zapata 2",
+                "imgUrl": "assets/images/zapata/beach.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "matorral",
+                "name": "Zapata 3",
+                "imgUrl": "assets/images/zapata/town.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "matorral",
+                "name": "Zapata 1",
+                "imgUrl": "assets/images/zapata/birds.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "matorral",
+                "name": "Zapata 2",
+                "imgUrl": "assets/images/zapata/beach.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "matorral",
+                "name": "Zapata 3",
+                "imgUrl": "assets/images/zapata/town.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "matorral",
+                "name": "Zapata 1",
+                "imgUrl": "assets/images/zapata/birds.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "matorral",
+                "name": "Zapata 2",
+                "imgUrl": "assets/images/zapata/beach.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "id": "matorral",
+                "name": "Zapata 3",
+                "imgUrl": "assets/images/zapata/town.jpg",
+                "price": 9.99,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        ]
+    }
+]
