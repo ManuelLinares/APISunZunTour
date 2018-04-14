@@ -1,0 +1,70 @@
+{
+    "id": "zapata-peninsula",
+    "recomended": "matorral",
+    "mainImgUrl": "assets/images/zapata/header.jpg",
+    "cards": [
+        {
+            "id": "matorral",
+            "name": "Zapata 1",
+            "imgUrl": "assets/images/zapata/birds.jpg",
+            "price": 9.99,
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": "matorral",
+            "name": "Zapata 2",
+            "imgUrl": "assets/images/zapata/beach.jpg",
+            "price": 9.99,
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": "matorral",
+            "name": "Zapata 3",
+            "imgUrl": "assets/images/zapata/town.jpg",
+            "price": 9.99,
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": "matorral",
+            "name": "Zapata 1",
+            "imgUrl": "assets/images/zapata/birds.jpg",
+            "price": 9.99,
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": "matorral",
+            "name": "Zapata 2",
+            "imgUrl": "assets/images/zapata/beach.jpg",
+            "price": 9.99,
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": "matorral",
+            "name": "Zapata 3",
+            "imgUrl": "assets/images/zapata/town.jpg",
+            "price": 9.99,
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": "matorral",
+            "name": "Zapata 1",
+            "imgUrl": "assets/images/zapata/birds.jpg",
+            "price": 9.99,
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": "matorral",
+            "name": "Zapata 2",
+            "imgUrl": "assets/images/zapata/beach.jpg",
+            "price": 9.99,
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": "matorral",
+            "name": "Zapata 3",
+            "imgUrl": "assets/images/zapata/town.jpg",
+            "price": 9.99,
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    ]
+}
