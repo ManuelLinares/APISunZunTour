@@ -1,0 +1,10 @@
+{
+    "alias": [
+        "sunzuntour"
+    ],
+    "public": true,
+    "env": {
+        "PROD": "true",
+        "PROD_URL": "sunzuntour.now.sh"
+    }
+}

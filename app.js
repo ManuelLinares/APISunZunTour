@@ -9,14 +9,21 @@ var index = require('./routes/index');
 
 var app = express();
 
-// uncomment after placing your favicon in /public
+// make Express use our redirect middleware
+if (process.env.PROD === 'true') {
+  app.use(function(req, res, next) {
+    if (req.hostname !== process.env.PROD_URL) {
+      return res.redirect(`https://${process.env.PROD_URL}/${req.originalUrl}`);
+    }
+    return next(); // call the next middleware (or route)
+  });
+}
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
 app.use('/api', index);
 app.use('*', function(req, res){
   res.sendfile('./public/index.html');
