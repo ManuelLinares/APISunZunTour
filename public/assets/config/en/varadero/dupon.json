@@ -2,6 +2,7 @@
     "name": "Dupon Mansion",
     "mainText": "Discover the wonders of the Dupon Mansion",
     "mainImgUrl": "assets/images/varadero/header.jpg",
+    "price": 50,
     "prop": [
         {
             "bigText": "Discover the Bacuranao Bridge",

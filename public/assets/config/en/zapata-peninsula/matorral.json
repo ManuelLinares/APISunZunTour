@@ -2,6 +2,7 @@
     "name": "Matorral",
     "mainText": "Discover the wonders of the nature",
     "mainImgUrl": "assets/images/zapata/header.jpg",
+    "price": 50,
     "prop": [
         {
             "bigText": "See the amazing birds an fishes",

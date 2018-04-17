@@ -2,6 +2,7 @@
     "name": "Indian Cave",
     "mainText": "Discover the wonders of the Indian Cave",
     "mainImgUrl": "assets/images/vinales/header.jpg",
+    "price": 50,
     "prop": [
         {
             "bigText": "See the ancient craft of tobacco making",
