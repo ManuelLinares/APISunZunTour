@@ -11,11 +11,8 @@ router.post('/', function(req, res, next) {
   console.log(`Comments: ${req.body.coments}`);
   console.log(`Trip name: ${req.body.tripName}`);
   console.log(`Trip ID: ${req.body.tripId}`);
-  console.log(`Trip price: ${Number.parseInt(req.body.tripPrice)}`);
-  console.log(`Final price: ${Number.parseInt(req.body.finalPrice)}`);
-  if (process.env.PROD !== 'true') {
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
-  }
+  console.log(`Trip price: ${Number.parseFloat(req.body.tripPrice)}`);
+  console.log(`Final price: ${Number.parseFloat(req.body.finalPrice)}`);
   res.sendStatus(200);
 });
 

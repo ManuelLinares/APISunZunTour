@@ -17,6 +17,12 @@ if (process.env.PROD === 'true') {
     }
     return next(); // call the next middleware (or route)
   });
+}else {
+  app.use(function(req, res, next){
+    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
+    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+    next();
+  })
 }
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
