@@ -1,19 +1,37 @@
 var express = require('express');
 var router = express.Router();
+const sgMail = require('@sendgrid/mail');
+sgMail.setApiKey('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');
 
 /* GET home page. */
-router.post('/', function(req, res, next) {
-  console.log(`Name: ${req.body.name}`);
-  console.log(`Email: ${req.body.email}`);
+router.post('/', function (req, res, next) {
   let date = new Date(req.body.datePicker);
-  console.log(`Date: ${date.toDateString()}`);
-  console.log(`Persons: ${Number.parseInt(req.body.people)}`);
-  console.log(`Comments: ${req.body.coments}`);
-  console.log(`Trip name: ${req.body.tripName}`);
-  console.log(`Trip ID: ${req.body.tripId}`);
-  console.log(`Trip price: ${Number.parseFloat(req.body.tripPrice)}`);
-  console.log(`Final price: ${Number.parseFloat(req.body.finalPrice)}`);
-  res.sendStatus(200);
+  let emailBody = `<p><strong>Nombre:</strong> ${req.body.name}</p>
+<p><strong>Correo electrónico:</strong> ${req.body.email}</p>
+<p><strong>Fecha:</strong> ${date.toDateString()}</p>
+<p><strong>Cantidad de personas:</strong> ${Number.parseInt(req.body.people)}</p>
+<p><strong>Comentarios:</strong> ${req.body.coments}</p>
+<p><strong>Nombre del viaje:</strong> ${req.body.tripName}</p>
+<p><strong>ID del viaje:</strong> ${req.body.tripId}</p>
+<p><strong>Precio pp:</strong> ${Number.parseFloat(req.body.tripPrice)}</p>
+<p><strong>Precio final:</strong> ${Number.parseFloat(req.body.finalPrice)}</p>`;
+
+  const msg = {
+    to: 'manu05091991@gmail.com',
+    from: 'SunZunTour<noreplay@sunzuntour.com>',
+    replyTo: req.body.email,
+    subject: `Nueva reservación de ${req.body.name}`,
+    html: emailBody,
+  };
+
+  sgMail.send(msg)
+    .then(() => res.sendStatus(200))
+    .catch(error => {
+      console.error(error.toString());
+      res.sendStatus(500);
+    })
+
+
 });
 
 module.exports = router;
