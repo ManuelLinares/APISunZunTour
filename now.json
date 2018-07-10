@@ -1,10 +1,17 @@
 {
-    "alias": [
-        "sunzuntour"
-    ],
-    "public": true,
-    "env": {
-        "PROD": "true",
-        "PROD_URL": "sunzuntour.now.sh"
-    }
+	"alias": [
+		"sunzuntour"
+	],
+	"public": true,
+	"env": {
+		"PROD": "true",
+		"PROD_URL": "sunzuntour.now.sh",
+		"SGApiKey": "@test-sendgrid-api-key"
+	},
+	"scale": {
+		"sfo": {
+			"min": 1,
+			"max": 1
+		}
+	}
 }

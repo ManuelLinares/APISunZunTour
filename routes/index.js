@@ -1,7 +1,8 @@
 var express = require('express');
 var router = express.Router();
 const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey('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');
+const { SGApiKey } = process.env;
+sgMail.setApiKey(SGApiKey);
 
 /* GET home page. */
 router.post('/', function (req, res, next) {
