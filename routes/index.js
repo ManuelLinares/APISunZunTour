@@ -30,8 +30,7 @@ router.post('/', function (req, res, next) {
     .catch(error => {
       console.error(error.toString());
       res.sendStatus(500);
-    })
-
+    });
 
 });
 

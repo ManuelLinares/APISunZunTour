@@ -9,7 +9,7 @@
 		"SGApiKey": "@test-sendgrid-api-key"
 	},
 	"scale": {
-		"sfo": {
+		"sfo1": {
 			"min": 1,
 			"max": 1
 		}
