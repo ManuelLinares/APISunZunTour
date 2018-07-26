@@ -26,10 +26,10 @@ router.post('/', function (req, res, next) {
   };
 
   sgMail.send(msg)
-    .then(() => res.sendStatus(200))
+    .then(() => res.json(200, '{}'))
     .catch(error => {
       console.error(error.toString());
-      res.sendStatus(500);
+      res.json(500, '{}');
     });
 
 });
