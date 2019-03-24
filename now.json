@@ -1,17 +1,23 @@
 {
-	"alias": [
-		"sunzuntour"
-	],
-	"public": true,
-	"env": {
-		"PROD": "true",
-		"PROD_URL": "sunzuntour.now.sh",
-		"SGApiKey": "@test-sendgrid-api-key"
-	},
-	"scale": {
-		"sfo1": {
-			"min": 1,
-			"max": 1
-		}
-	}
+  "version": 2,
+  "name": "sun-zun-tour",
+  "alias": "sunzuntour.now.sh",
+  "public": true,
+  "builds": [
+    {
+      "src": "app.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app.js"
+    }
+  ],
+  "env": {
+    "PROD": "true",
+    "PROD_URL": "sunzuntour.now.sh",
+    "SGApiKey": "@test-sendgrid-api-key"
+  }
 }
