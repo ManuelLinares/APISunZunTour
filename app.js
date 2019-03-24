@@ -6,35 +6,32 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
+var email = require('./routes/email')
 
 var app = express();
 
 // make Express use our redirect middleware
-if (process.env.PROD === 'true') {
-  app.use(function(req, res, next) {
-    if (req.hostname !== process.env.PROD_URL) {
-      return res.redirect(`https://${process.env.PROD_URL}/${req.originalUrl}`);
-    }
-    return next(); // call the next middleware (or route)
-  });
-}else {
-  app.use(function(req, res, next){
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:1234');
-    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-    next();
-  })
-}
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+// if (process.env.PROD === 'true') {
+//   app.use(function(req, res, next) {
+//     if (req.hostname !== process.env.PROD_URL) {
+//       return res.redirect(`https://${process.env.PROD_URL}/${req.originalUrl}`);
+//     }
+//     return next(); // call the next middleware (or route)
+//   });
+// }else {
+//   app.use(function(req, res, next){
+//     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
+//     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:1234');
+//     res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+//     next();
+//   })
+// }
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-app.use('/api', index);
-app.use('*', function(req, res){
-  res.sendfile('./public/index.html');
-});
+app.use('/', index);
+app.use('/email', email)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
