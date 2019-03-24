@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "sun-zun-tour",
-  "alias": "sunzuntour.now.sh",
+  "alias": "apisunzuntour.now.sh",
   "public": true,
   "builds": [
     {
